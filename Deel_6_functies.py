@@ -1,4 +1,7 @@
 """
+Let op: De moeilijkheidsgraat gaat nu wat omhoog. Zorg dat je alle
+voorgaande concepten snaps voordat je nu doorgaat.
+
 We hebben nu een aantal losse onderdelen gezien. Er zijn uiteraard meer
 structuren binnen python (en andere programmeertalen) maar dit zijn de
 belangrijkste
@@ -41,70 +44,76 @@ def analyseer_zin(zin):
         print("Overige tekens die we hebben gevonden zijn: ", geen_letters)
 
 
-
 analyseer_zin(''' 
-Once upon a midnight dreary, while I pondered, weak and weary,
-Over many a quaint and curious volume of forgotten lore,
-While I nodded, nearly napping, suddenly there came a tapping,
-As of some one gently rapping, rapping at my chamber door.
-Tis some visitor," I muttered, "tapping at my chamber door —
-Only this, and nothing more."
+[Songtekst van "Europapa"]
 
-Ah, distinctly I remember it was in the bleak December,
-And each separate dying ember wrought its ghost upon the floor.
-Eagerly I wished the morrow; — vainly I had sought to borrow
-From my books surcease of sorrow — sorrow for the lost Lenore —
-For the rare and radiant maiden whom the angels name Lenore —
-Nameless here for evermore.
+[Intro: Joost]
+Europe, let's come together
+(Euro-pa-pa, Euro-pa-pa)
+It's now or never
+I love you all (Euro-pa-pa, Euro-pa-pa)
 
-And the silken sad uncertain rustling of each purple curtain
-Thrilled me — filled me with fantastic terrors never felt before;
-So that now, to still the beating of my heart, I stood repeating,
-Tis some visitor entreating entrance at my chamber door —
-Some late visitor entreating entrance at my chamber door; —
-This it is, and nothing more."
+[Chorus: Joost]
+Welkom in Europa, blijf hier tot ik dood ga
+Euro-pa-pa, Euro-pa-pa
+Welkom in Europa, blijf hier tot ik dood ga
+Euro-pa-pa, Euro-pa-pa
 
-Presently my soul grew stronger; hesitating then no longer,
-Sir," said I, "or Madam, truly your forgiveness I implore;
-But the fact is I was napping, and so gently you came rapping,
-And so faintly you came tapping, tapping at my chamber door,
-That I scarce was sure I heard you"— here I opened wide the door; —
-Darkness there, and nothing more.
+[Verse 1: Joost]
+Bezoek m'n friends in France of neem de benen naar Wenen
+Ik wil weg uit Netherlands, maar m'n paspoort is verdwenen
+Heb gelukkig geen visum nodig om bij je te zijn
+Dus neem de bus naar Polen of de trein naar Berlijn
+Ik heb geen geld voor Paris, dus gebruik m'n fantasie
+Heb je een еuro'tje, please? Zеg "merci" en "alsjeblieft"
+Ik ben echt alles kwijt behalve de tijd
+Dus ben elke dag op reis want de wereld is van mij
 
-Deep into that darkness peering, long I stood there wondering, fearing,
-Doubting, dreaming dreams no mortals ever dared to dream before;
-But the silence was unbroken, and the stillness gave no token,
-And the only word there spoken was the whispered word, "Lenore?"
-This I whispered, and an echo murmured back the word, "Lenore!" —
-Merely this, and nothing more.
+[Chorus: Joost]
+Welkom in Europa, blijf hier tot ik dood ga
+Euro-pa-pa, Euro-pa-pa
+Welkom in Europa, blijf hier tot ik dood ga
+Euro-pa-pa, Euro-pa-pa
 
-Back into the chamber turning, all my soul within me burning,
-Soon again I heard a tapping somewhat louder than before.
-Surely," said I, "surely that is something at my window lattice:
-Let me see, then, what thereat is, and this mystery explore —
-Let my heart be still a moment and this mystery explore; —
-'Tis the wind and nothing more."
+[Post-Chorus: Joost]
+Euro-pa-pa, pa-pa, pa-pa-pa
+Euro-pa-pa-pa (Hey)
+Euro-pa-pa, pa-pa, pa-pa-pa
+Eu-ro-pa (Hey)
 
-Open here I flung the shutter, when, with many a flirt and flutter,
-In there stepped a stately raven of the saintly days of yore;
-Not the least obeisance made he; not a minute stopped or stayed he;
-But, with mien of lord or lady, perched above my chamber door —
-Perched upon a bust of Pallas just above my chamber door —
-Perched, and sat, and nothing more.
+[Verse 2: Joost]
+Ich bin in Deutschland, aber ich bin so allein
+Io sono in Italia, maar toch doet het pijn
+Ben aan het vluchten van mezelf, roep de hele dag om help
+Ja, ik geef zelfs mensen geld, maar d'r is niemand die me helpt
+Ik hoef geen escargots, hoef geen fish 'n' chips
+Hoef geen paella, no, ik weet niet eens echt wat dat is
+Zet de radio aan, ik hoor Stromae met "Papaoutai"
+Zal niet stoppen, tot ze zeggen, "Ja, ja, dat doet 'ie goed, ey"
 
-Then this ebony bird beguiling my sad fancy into smiling,
-By the grave and stern decorum of the countenance it wore.
-Though thy crest be shorn and shaven, thou," I said, "art sure no craven,
-Ghastly grim and ancient raven wandering from the Nightly shore —
-Tell me what thy lordly name is on the Night's Plutonian shore!"
-Quoth the Raven, "Nevermore."
+[Chorus: Joost]
+Welkom in Europa, blijf hier tot ik dood ga
+Euro-pa-pa, Euro-pa-pa
+Welkom in Europa, blijf hier tot ik dood ga
+Euro-pa-pa, Euro-pa-pa
 
-Much I marveled this ungainly fowl to hear discourse so plainly,
-Though its answer little meaning— little relevancy bore;
-For we cannot help agreeing that no living human being
-Ever yet was blest with seeing bird above his chamber door —
-Bird or beast upon the sculptured bust above his chamber door,
-With such name as "Nevermore.”
-― Edgar Allan Poe, The Raven 
+[Post-Chorus: Joost]
+Euro-pa-pa, pa-pa, pa-pa-pa
+Euro-pa-pa-pa (Hey)
+Euro-pa-pa, pa-pa, pa-pa-pa
+Eu-ro-pa (Hey)
+[Bridge: Joost & Tim Haars]
+Europa, pa-pa-pa-pa-pa, pa-pa-pa-pa-pa
+Pa-pa-pa, pa-pa-pa-pa-pa
+Pa-pa-pa, pa-pa-pa-pa-pa
+Pa-pa-pa, pa-pa-pa-pa-pa
+Pa-pa-pa, pa-pa-pa-pa-pa
+Pa-pa-pa, pa-pa-pa-pa-pa (Ja-ha)
+Pa, pa, pa, pa (Hey)
+Welkom in Europa, jongen!
+
+[Drop: Joost]
+(Hey)
+Eu-ro-pa
 '''
 )
