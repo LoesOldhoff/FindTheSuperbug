@@ -29,11 +29,13 @@ te schrijven. We kunnen ook verwijzen naar getallen of woorden die
 we al eerder in ons script gebruikt hebben. 
 """
 
-""" Wat denk je dat hier zal gebeuren? Run het script """
 tweede_voorbeeld_lijst = [voorbeeld_int, voorbeeld_string]
-print(tweede_voorbeeld_lijst)
 
-""" Ja kan naar stukken data verwijzen bij hun naam 
+""" Wat denk je dat hier zal gebeuren? 
+Run dit script met F5 en typ print(tweede_voorbeeld_lijst) in de terminal
+"""
+
+""" Je kan naar stukken data verwijzen bij hun naam 
 (witte tekst, ookwel de 'variabele' of 'variabele naam'
 Ze zijn oneindig vaak te bebruiken, en je kan er maffe dingen 
 mee doen
