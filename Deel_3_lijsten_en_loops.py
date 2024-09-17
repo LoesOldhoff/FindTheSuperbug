@@ -3,8 +3,9 @@ voorbeeld_lijst = [4, 6, 1, 7, 8, 9, 12]
 """
 Lijsten zijn bijzonder omdat de uit meerdere 'delen' bestaan.
 De officiele naam hiervoor is 'iterable'
-Python kan over dit soort datatypen heen 'loopen', met bijvoorbeeld
-een 'for loop'. Kijk hier eens naar: 
+Python kan over dit soort datatypen heen 'loopen' (oftewel, dit stuk code 
+meerdere keren runnen) 
+Kijk hier eens naar: 
 """
 
 for item in voorbeeld_lijst:
