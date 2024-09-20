@@ -1,5 +1,5 @@
 """
-Let op: De moeilijkheidsgraat gaat nu wat omhoog. Zorg dat je alle
+Let op: De moeilijkheidsgraad gaat nu wat omhoog. Zorg dat je alle
 voorgaande concepten snaps voordat je nu doorgaat.
 
 We hebben nu een aantal losse onderdelen gezien. Er zijn uiteraard meer
@@ -44,7 +44,7 @@ def analyseer_zin(zin):
         print("Overige tekens die we hebben gevonden zijn: ", geen_letters)
 
 
-analyseer_zin(''' 
+europapa = ''' 
 [Songtekst van "Europapa"]
 
 [Intro: Joost]
@@ -116,4 +116,30 @@ Welkom in Europa, jongen!
 (Hey)
 Eu-ro-pa
 '''
-)
+analyseer_zin(europapa)
+
+
+# De vorige functie telt alleen de letter A, dat kan natuurlijk beter...
+def letter_frequenties(zin):
+    alfabet = 'abcdefghijklmnopqrstuvwxyz'
+    # We gaan een lijst maken met voor ieder getal hoe vaak ze voorkomen in onze
+    # zin. Voordat we de zin bekeken hebben, hebben we er uiteraard 0 gezien:
+    # Maak een lijst met 26 nullen.
+    frequenties = []
+    for letter in alfabet:
+        frequenties.append(0)
+    for letter in zin:
+        # Niet alle letters hebben een hoofd/kleine letter. casefold gaat hier
+        # goed mee om, en maakt alles (waar mogelijk) een kleine letter
+        letter = letter.casefold()
+        if letter in alfabet:
+            # Met index zoek ik op waar in alfabet mijn letter staat.
+            plek = alfabet.index(letter)
+            # En op die plek houd ik bij dat ik een letter tel.
+            frequenties[plek] = frequenties[plek] + 1
+    return frequenties
+
+# Dit soort frequentie analyses kan je gebruiken om eenvoudige versleutelingen
+# te breken, zoals een Caesar cipher (https://nl.wikipedia.org/wiki/Caesarcijfer)
+print(letter_frequenties(europapa))
+
